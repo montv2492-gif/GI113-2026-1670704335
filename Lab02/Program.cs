@@ -106,7 +106,7 @@ namespace Lab02
         static void Program4()
         {
             string bossName = "Asian Monitor peter gay prem griffin";
-            char rank = '!';
+            char rank = 'S';
             int level = 00;
             int maxHp = 999999999;
             int currentHp = 999999999;
