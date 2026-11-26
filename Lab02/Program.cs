@@ -2,7 +2,7 @@
  * Student ID :1670704335
  * Name       :thamakrit preyapanarakui
  * Section    :129A
- * No.        :-
+ * No.        :6
  * Course     : GI113 Computer Programming (GI)
  */
 namespace Lab02

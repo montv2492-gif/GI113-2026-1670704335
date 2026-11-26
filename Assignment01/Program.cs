@@ -23,24 +23,23 @@ namespace Assignment01
             double energyReserve = 73.7;
             bool isTrackReady = true;
 
-            Console.WriteLine("╔══════════════════════════════════════╗");
-            Console.WriteLine($"║       {GameTitle} | RUNNER CARD       ║");
-            Console.WriteLine("╠══════════════════════════════════════╣");
-            Console.WriteLine($"║ Runner      : {runnerName}");
-            Console.WriteLine($"║ Rank         : {rankBadge}");
-            Console.WriteLine($"║ Boosts       : {boostCharges}");
-            Console.WriteLine($"║ Dash cooldown: {dashCooldownSeconds} sec");
-            Console.WriteLine($"║ Energy       : {energyReserve}");
-            Console.WriteLine($"║ Track ready  : {isTrackReady}");
-            Console.WriteLine("╠══════════════════════════════════════╣");
+            Console.WriteLine(" ╔══════════════════════════════════════╗");
+            Console.WriteLine($"║       {GameTitle} | RUNNER CARD      ║");
+            Console.WriteLine(" ╠══════════════════════════════════════╣");
+            Console.WriteLine($"║ Runner:{runnerName}.                 ║");
+            Console.WriteLine($"║ Rank:{rankBadge}.                    ║");
+            Console.WriteLine($"║ Dash cooldown: {dashCooldownSeconds}sec");
+            Console.WriteLine($"║ Energy: {energyReserve}.             ║");
+            Console.WriteLine($"║ Track ready: {isTrackReady}.         ║");
+            Console.WriteLine(" ╠══════════════════════════════════════╣");
 
             double boostChargesAsDouble = boostCharges;
-            Console.WriteLine($"║ Boosts as double (implicit): {boostChargesAsDouble}");
+            Console.WriteLine($"║Boosts as double(implicit):{boostChargesAsDouble}");
 
             int energyTruncated = (int)energyReserve;
             int energyRounded = Convert.ToInt32(energyReserve);
-            Console.WriteLine($"║ Energy cast (truncated)          : {energyTruncated}");
-            Console.WriteLine($"║ Energy Convert (rounded)          : {energyRounded}");
+            Console.WriteLine($"║ Energy cast(truncated):{energyTruncated}");
+            Console.WriteLine($"║ Energy Convert(rounded):{energyRounded}");
             Console.WriteLine("╚══════════════════════════════════════╝");
         }
     }
