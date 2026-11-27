@@ -32,10 +32,8 @@ namespace Assignment01
             Console.WriteLine($"║ Energy: {energyReserve}.             ║");
             Console.WriteLine($"║ Track ready: {isTrackReady}.         ║");
             Console.WriteLine(" ╠══════════════════════════════════════╣");
-
             double boostChargesAsDouble = boostCharges;
             Console.WriteLine($"║Boosts as double(implicit):{boostChargesAsDouble}");
-
             int energyTruncated = (int)energyReserve;
             int energyRounded = Convert.ToInt32(energyReserve);
             Console.WriteLine($"║ Energy cast(truncated):{energyTruncated}");
